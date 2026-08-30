@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Multi-Level BOM & Build Scenario Analyzer | Shantanu Satpute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="nav-wrap"><nav class="nav container">
+<a class="brand" href="index.html">SS</a>
+<div class="nav-links"><a href="index.html#projects">Projects</a><a href="index.html#skills">Skills</a><a href="index.html#about">About</a></div>
+<a class="btn small secondary" href="index.html">← Portfolio</a>
+</nav></header>
+<main>
+<section class="page-hero container">
+<div class="breadcrumb">Portfolio / BOM / SCENARIO PLANNING</div>
+<div class="eyebrow">BOM / SCENARIO PLANNING</div>
+<h1>Multi-Level BOM & Build Scenario Analyzer</h1>
+<p class="hero-text">A demo of a multi-level BOM explosion model that calculates required buy-part quantities across multiple finished-good production scenarios.</p>
+<div class="tech-row"><span>Oracle BOM</span><span>SQL</span><span>QuickSight Parameters</span></div>
+<div class="note"><strong>Demo note:</strong> This project uses fictional data and genericized workflows. It demonstrates analytical approach and product thinking, not internal employer data or proprietary code.</div>
+</section>
+
+<section class="section section-alt"><div class="container">
+<div class="demo-grid"><div class="demo-card"><div class="label">Top-Level Builds</div><div class="value">4</div></div><div class="demo-card"><div class="label">BOM Levels</div><div class="value">6</div></div><div class="demo-card"><div class="label">Unique Buy Parts</div><div class="value">287</div></div><div class="demo-card"><div class="label">Scenario Requirement</div><div class="value">18.4K</div></div></div>
+<div class="layout-2">
+<div class="panel"><h3>Business Problem</h3><p>When production quantities change, planners need to understand the total component requirement across complex multi-level BOMs without double counting.</p><h3>Solution</h3><p>Built recursive BOM logic, filtered to current effective components, rolled usage quantities through each level, and aggregated buy-part requirements by scenario.</p></div>
+<div class="panel"><h3>Decision Flow</h3><div class="flow"><div class="flow-node">ERP / MRP Data</div><span class="arrow">→</span><div class="flow-node">SQL Logic</div><span class="arrow">→</span><div class="flow-node">Risk / Opportunity</div><span class="arrow">→</span><div class="flow-node">Planner Action</div></div></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<div class="section-heading"><div class="eyebrow">DEMO OUTPUT</div><h2>Example analytical view.</h2></div>
+<div class="table-wrap"><table><thead><tr><th>Buy Part</th><th>BOM Path</th><th>Usage / Build</th><th>Build Qty</th><th>Required Qty</th></tr></thead><tbody><tr><td>BUY-0072</td><td>Top A > Sub 14 > BUY-0072</td><td>1.0</td><td>280</td><td>280</td></tr><tr><td>BUY-0311</td><td>Top B > Assy 9 > BUY-0311</td><td>4.0</td><td>120</td><td>480</td></tr><tr><td>BUY-0998</td><td>Top A > Sub 22 > BUY-0998</td><td>2.0</td><td>280</td><td>560</td></tr><tr><td>BUY-1420</td><td>Top C > Assy 5 > BUY-1420</td><td>0.5</td><td>400</td><td>200</td></tr></tbody></table></div>
+</div></section>
+
+<section class="section section-alt"><div class="container">
+<div class="layout-2">
+<div class="panel"><h3>Priority Distribution</h3><div class="bar-row"><span>Critical</span><div class="bar-track"><div class="bar-fill" style="width:72%"></div></div><strong>72%</strong></div><div class="bar-row"><span>High</span><div class="bar-track"><div class="bar-fill" style="width:58%"></div></div><strong>58%</strong></div><div class="bar-row"><span>Medium</span><div class="bar-track"><div class="bar-fill" style="width:41%"></div></div><strong>41%</strong></div><div class="bar-row"><span>Low</span><div class="bar-track"><div class="bar-fill" style="width:24%"></div></div><strong>24%</strong></div></div>
+<div class="panel"><h3>Why It Matters</h3><p>The demo highlights the same core challenge as a production planning model: exploding current BOMs accurately and preventing duplicate requirements across levels.</p><h3>What this demonstrates</h3><div class="chips"><span>Business problem framing</span><span>SQL logic</span><span>Data modeling</span><span>Planning knowledge</span><span>Dashboard design</span></div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-row"><span>© <span data-year></span> Shantanu Satpute</span><span><a href="index.html#projects">Back to projects</a></span></div></footer>
+<script src="script.js"></script>
+</body></html>

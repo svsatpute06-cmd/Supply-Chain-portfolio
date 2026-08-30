@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Planned Order Conversion Tracker | Shantanu Satpute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="nav-wrap"><nav class="nav container">
+<a class="brand" href="index.html">SS</a>
+<div class="nav-links"><a href="index.html#projects">Projects</a><a href="index.html#skills">Skills</a><a href="index.html#about">About</a></div>
+<a class="btn small secondary" href="index.html">← Portfolio</a>
+</nav></header>
+<main>
+<section class="page-hero container">
+<div class="breadcrumb">Portfolio / MRP EXECUTION</div>
+<div class="eyebrow">MRP EXECUTION</div>
+<h1>Planned Order Conversion Tracker</h1>
+<p class="hero-text">A demo concept for tracking when planned orders first appear in MRP and how they progress toward requisitions or purchase orders.</p>
+<div class="tech-row"><span>Oracle ASCP</span><span>SQL</span><span>Snapshot History</span></div>
+<div class="note"><strong>Demo note:</strong> This project uses fictional data and genericized workflows. It demonstrates analytical approach and product thinking, not internal employer data or proprietary code.</div>
+</section>
+
+<section class="section section-alt"><div class="container">
+<div class="demo-grid"><div class="demo-card"><div class="label">Open Planned Orders</div><div class="value">212</div></div><div class="demo-card"><div class="label">Avg. Age</div><div class="value">8.6 days</div></div><div class="demo-card"><div class="label">Converted ≤ 5 Days</div><div class="value">71%</div></div><div class="demo-card"><div class="label">Aged > 14 Days</div><div class="value">29</div></div></div>
+<div class="layout-2">
+<div class="panel"><h3>Business Problem</h3><p>Teams often see planned orders in MRP but lack visibility into how long it takes for those recommendations to become executable supply.</p><h3>Solution</h3><p>Designed a snapshot-based tracking model that records first-seen date, due date changes, conversion status and elapsed time through the planning-to-procurement process.</p></div>
+<div class="panel"><h3>Decision Flow</h3><div class="flow"><div class="flow-node">ERP / MRP Data</div><span class="arrow">→</span><div class="flow-node">SQL Logic</div><span class="arrow">→</span><div class="flow-node">Risk / Opportunity</div><span class="arrow">→</span><div class="flow-node">Planner Action</div></div></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<div class="section-heading"><div class="eyebrow">DEMO OUTPUT</div><h2>Example analytical view.</h2></div>
+<div class="table-wrap"><table><thead><tr><th>Planned Order</th><th>Part</th><th>First Seen</th><th>Current Due</th><th>Status</th><th>Age</th></tr></thead><tbody><tr><td>PLO-8821</td><td>CMP-7710</td><td>Aug 18</td><td>Aug 26</td><td>Requisition</td><td>8 days</td></tr><tr><td>PLO-8844</td><td>CMP-1187</td><td>Aug 20</td><td>Aug 29</td><td>Planned Order</td><td>9 days</td></tr><tr><td>PLO-8910</td><td>CMP-5512</td><td>Aug 23</td><td>Aug 27</td><td>Purchase Order</td><td>4 days</td></tr><tr><td>PLO-8933</td><td>CMP-4421</td><td>Aug 25</td><td>Sep 01</td><td>Planned Order</td><td>7 days</td></tr></tbody></table></div>
+</div></section>
+
+<section class="section section-alt"><div class="container">
+<div class="layout-2">
+<div class="panel"><h3>Priority Distribution</h3><div class="bar-row"><span>Critical</span><div class="bar-track"><div class="bar-fill" style="width:72%"></div></div><strong>72%</strong></div><div class="bar-row"><span>High</span><div class="bar-track"><div class="bar-fill" style="width:58%"></div></div><strong>58%</strong></div><div class="bar-row"><span>Medium</span><div class="bar-track"><div class="bar-fill" style="width:41%"></div></div><strong>41%</strong></div><div class="bar-row"><span>Low</span><div class="bar-track"><div class="bar-fill" style="width:24%"></div></div><strong>24%</strong></div></div>
+<div class="panel"><h3>Why It Matters</h3><p>The concept demonstrates how planning execution can be measured over time instead of treating every MRP run as a disconnected snapshot.</p><h3>What this demonstrates</h3><div class="chips"><span>Business problem framing</span><span>SQL logic</span><span>Data modeling</span><span>Planning knowledge</span><span>Dashboard design</span></div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-row"><span>© <span data-year></span> Shantanu Satpute</span><span><a href="index.html#projects">Back to projects</a></span></div></footer>
+<script src="script.js"></script>
+</body></html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Demand Pegging & Top-Level Driver Analysis | Shantanu Satpute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="nav-wrap"><nav class="nav container">
+<a class="brand" href="index.html">SS</a>
+<div class="nav-links"><a href="index.html#projects">Projects</a><a href="index.html#skills">Skills</a><a href="index.html#about">About</a></div>
+<a class="btn small secondary" href="index.html">← Portfolio</a>
+</nav></header>
+<main>
+<section class="page-hero container">
+<div class="breadcrumb">Portfolio / PEGGING / DEMAND TRACEABILITY</div>
+<div class="eyebrow">PEGGING / DEMAND TRACEABILITY</div>
+<h1>Demand Pegging & Top-Level Driver Analysis</h1>
+<p class="hero-text">A demo tool that traces component demand through pegging relationships to the top-level product or forecast stream driving the requirement.</p>
+<div class="tech-row"><span>Oracle ASCP</span><span>SQL</span><span>Pegging Logic</span></div>
+<div class="note"><strong>Demo note:</strong> This project uses fictional data and genericized workflows. It demonstrates analytical approach and product thinking, not internal employer data or proprietary code.</div>
+</section>
+
+<section class="section section-alt"><div class="container">
+<div class="demo-grid"><div class="demo-card"><div class="label">Components Analyzed</div><div class="value">458</div></div><div class="demo-card"><div class="label">Top-Level Drivers</div><div class="value">19</div></div><div class="demo-card"><div class="label">Forecast Streams</div><div class="value">7</div></div><div class="demo-card"><div class="label">Trace Coverage</div><div class="value">96%</div></div></div>
+<div class="layout-2">
+<div class="panel"><h3>Business Problem</h3><p>Component planners can see demand on a part but often need to know which finished good or forecast is actually causing it.</p><h3>Solution</h3><p>Traversed pegging relationships and summarized the ultimate top-level demand drivers into a simple one-row-per-component view.</p></div>
+<div class="panel"><h3>Decision Flow</h3><div class="flow"><div class="flow-node">ERP / MRP Data</div><span class="arrow">→</span><div class="flow-node">SQL Logic</div><span class="arrow">→</span><div class="flow-node">Risk / Opportunity</div><span class="arrow">→</span><div class="flow-node">Planner Action</div></div></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<div class="section-heading"><div class="eyebrow">DEMO OUTPUT</div><h2>Example analytical view.</h2></div>
+<div class="table-wrap"><table><thead><tr><th>Component</th><th>Top-Level Drivers</th><th>Forecast Streams</th><th>Demand Qty</th></tr></thead><tbody><tr><td>CMP-030187</td><td>FG-ALPHA, FG-GAMMA</td><td>SIOP-A, MPS-1</td><td>18,420</td></tr><tr><td>CMP-105993</td><td>FG-BETA</td><td>SIOP-B</td><td>7,880</td></tr><tr><td>CMP-119502</td><td>FG-ALPHA, FG-DELTA</td><td>SIOP-A, SIOP-C</td><td>11,240</td></tr><tr><td>CMP-123584</td><td>FG-GAMMA</td><td>MPS-1</td><td>4,930</td></tr></tbody></table></div>
+</div></section>
+
+<section class="section section-alt"><div class="container">
+<div class="layout-2">
+<div class="panel"><h3>Priority Distribution</h3><div class="bar-row"><span>Critical</span><div class="bar-track"><div class="bar-fill" style="width:72%"></div></div><strong>72%</strong></div><div class="bar-row"><span>High</span><div class="bar-track"><div class="bar-fill" style="width:58%"></div></div><strong>58%</strong></div><div class="bar-row"><span>Medium</span><div class="bar-track"><div class="bar-fill" style="width:41%"></div></div><strong>41%</strong></div><div class="bar-row"><span>Low</span><div class="bar-track"><div class="bar-fill" style="width:24%"></div></div><strong>24%</strong></div></div>
+<div class="panel"><h3>Why It Matters</h3><p>This gives a component planner business context behind a demand signal, making shortage discussions more actionable with product and program teams.</p><h3>What this demonstrates</h3><div class="chips"><span>Business problem framing</span><span>SQL logic</span><span>Data modeling</span><span>Planning knowledge</span><span>Dashboard design</span></div></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-row"><span>© <span data-year></span> Shantanu Satpute</span><span><a href="index.html#projects">Back to projects</a></span></div></footer>
+<script src="script.js"></script>
+</body></html>
