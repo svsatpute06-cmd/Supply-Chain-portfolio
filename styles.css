@@ -83,3 +83,17 @@ th{color:var(--muted);font-weight:700;background:#111720}
  .hero-actions{flex-direction:column;align-items:stretch}
  .footer-row{flex-direction:column}
 }
+
+
+.experience-stack{display:grid;gap:16px}
+.experience-card ul{margin:12px 0 0;padding-left:20px;color:var(--muted)}
+.experience-card li{margin:8px 0}
+.experience-top{display:flex;justify-content:space-between;gap:20px;align-items:flex-start}
+.experience-top>span{color:var(--muted);font-size:13px;white-space:nowrap}
+.company-line{margin:0;color:var(--muted);font-weight:600}
+.publication-card{max-width:880px}
+.contact-actions{display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:700px){
+ .experience-top{flex-direction:column;gap:2px}
+ .experience-top>span{white-space:normal}
+}

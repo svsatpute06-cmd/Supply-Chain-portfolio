@@ -1,12 +1,16 @@
-# Supply Chain Portfolio v2
+# Shantanu Satpute Supply Chain Portfolio v3
 
-This version includes five demo case-study pages inspired by real enterprise supply-chain analytics work.
+Updated using the current resume.
 
-Projects:
-1. Inventory Risk & Safety Stock Control Tower
-2. Purchase Order Push-Out Opportunity Dashboard
-3. Multi-Level BOM & Build Scenario Analyzer
-4. Demand Pegging & Top-Level Driver Analysis
-5. Planned Order Conversion Tracker
+What changed:
+- Added real professional headline and contact information
+- Added LinkedIn and email links
+- Added downloadable resume
+- Added full experience section
+- Added education
+- Added publication
+- Updated skills to match the resume
+- Preserved anonymized project demos
 
-All sample data is fictional. Before publishing, replace placeholder contact links and add your actual LinkedIn URL.
+Deploy:
+Upload all files to the root of the existing GitHub Pages repository and replace files with the same names.
