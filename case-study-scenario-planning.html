@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Developed a self-service planning workflow combining multi-level BOM explosion, AWS data ingestion, and Oracle PO supply netting.">
+<title>Build Scenario Planning &amp; Time-Phased Supply Risk | Shantanu Satpute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav-wrap"><nav class="nav container">
+<a class="brand" href="index.html" aria-label="Portfolio home">SS</a>
+<div class="nav-links"><a href="index.html#case-studies">Case Studies</a><a href="index.html#projects">Project Demos</a><a href="index.html#experience">Experience</a><a href="index.html#contact">Contact</a></div>
+<a class="btn small secondary" href="index.html#case-studies">← All Case Studies</a>
+</nav></header>
+<main>
+<section class="case-hero container">
+<div class="breadcrumb"><a href="index.html">Portfolio</a> / <a href="index.html#case-studies">Case Studies</a> / 03</div>
+<div class="case-kicker"><span>CASE STUDY 03 / 05</span><span>SCENARIO MODELING</span></div>
+<h1>Build Scenario Planning &amp; Time-Phased Supply Risk</h1>
+<p class="case-lead">From a proposed build mix to exact buy-part requirements and dated purchasing actions.</p>
+<div class="tech-row"><span>Multi-Level BOM</span><span>Oracle SQL</span><span>Amazon S3</span><span>AWS Glue</span><span>Amazon Athena</span><span>AWS QuickSight</span></div>
+<div class="case-disclaimer"><strong>Public portfolio version:</strong> This case study describes real professional work at a generalized level. No confidential datasets, internal screenshots, supplier details or proprietary SQL are included.</div>
+</section>
+<section class="case-strip"><div class="container case-signal-grid"><div class="case-signal"><strong>BOM-driven</strong><span>Buy-part demand</span></div><div class="case-signal"><strong>Time-phased</strong><span>Inventory balance</span></div><div class="case-signal"><strong>Action-ready</strong><span>PO follow-up</span></div></div></section>
+<section class="section"><div class="container">
+<div class="section-heading"><div class="eyebrow">CONTEXT &amp; OWNERSHIP</div><h2>The problem and my role.</h2></div>
+<div class="case-split"><article class="case-info-panel"><span class="case-mini-label">01 / THE CHALLENGE</span><h3>Why the work mattered</h3><p>Revenue and repair-and-overhaul planners needed to model different product variants, build volumes and dates without manually recreating an entire materials plan. A useful answer required more than a static parts list: it needed projected availability over time.</p></article>
+<article class="case-info-panel"><span class="case-mini-label">02 / MY CONTRIBUTION</span><h3>What I owned</h3><p>I designed the scenario input and material-requirements logic, connected the file-refresh workflow, and delivered the time-phased component risk views for weekly planner and buyer decisions.</p></article></div>
+</div></section>
+<section class="section section-alt"><div class="container">
+<div class="section-heading"><div class="eyebrow">SOLUTION DESIGN</div><h2>How I approached it.</h2><p class="section-subtext">An end-to-end look at the planning logic, stakeholder workflow and delivery approach.</p></div>
+<div class="case-detail-grid"><article class="case-detail-card"><span class="case-step-index">01</span><h3>Translate builds into demand</h3><p>Allowed planners to enter variant quantities and required dates, then exploded multi-level BOMs down to purchased components.</p></article><article class="case-detail-card"><span class="case-step-index">02</span><h3>Automate scenario ingestion</h3><p>Used an S3-based upload process with Glue and Athena so refreshed scenario files could feed an analytics dataset.</p></article><article class="case-detail-card"><span class="case-step-index">03</span><h3>Net demand against scheduled supply</h3><p>Compared dated buy-part requirements with Oracle opening inventory and incoming purchase-order quantities.</p></article><article class="case-detail-card"><span class="case-step-index">04</span><h3>Surface the required buyer action</h3><p>Calculated projected running on-hand balances and identified potential purchase-order pull-ins, push-outs and supply gaps.</p></article></div>
+<div class="case-workflow"><div class="case-mini-label">END-TO-END WORKFLOW</div><div class="case-flow-track"><div class="case-flow-step"><span class="case-flow-num">01</span><strong>Build quantities + dates</strong></div><div class="case-flow-step"><span class="case-flow-num">02</span><strong>Multi-level BOM</strong></div><div class="case-flow-step"><span class="case-flow-num">03</span><strong>S3 / Glue / Athena</strong></div><div class="case-flow-step"><span class="case-flow-num">04</span><strong>PO supply netting</strong></div><div class="case-flow-step"><span class="case-flow-num">05</span><strong>Running on-hand</strong></div></div></div>
+</div></section>
+<section class="section"><div class="container">
+<div class="case-split case-outcome-grid">
+<div><div class="eyebrow">BUSINESS OUTCOMES</div><h2>What changed.</h2><p class="section-subtext">Qualitative results are described without publishing unapproved internal performance figures.</p></div>
+<div class="case-impact"><ul><li>Enabled side-by-side evaluation of proposed builds against material feasibility.</li><li>Gave planners a time-phased picture of what would be needed, not just total component quantities.</li><li>Supported more specific weekly conversations with buyers about timing and supply recovery.</li></ul></div>
+</div></div></section>
+<section class="section section-alt"><div class="container">
+<div class="case-end">
+<div><div class="eyebrow">EXPLORE MORE WORK</div><h2>See the next case study.</h2><p>Global Field Rework Material Readiness</p></div>
+<div class="case-end-actions"><a class="btn" href="case-study-field-rework.html">Next Case Study →</a><a class="btn secondary" href="index.html#case-studies">All 5 Case Studies</a></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-row"><span>© <span data-year></span> Shantanu Satpute</span><span>Supply Chain Planning • Materials • Analytics</span></div></footer>
+<script src="script.js"></script>
+</body></html>

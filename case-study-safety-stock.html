@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Built a role-secured QuickSight solution to surface below-policy stock, over-coverage, and missing item-master ownership.">
+<title>Safety Stock Intelligence &amp; Data Quality Governance | Shantanu Satpute</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav-wrap"><nav class="nav container">
+<a class="brand" href="index.html" aria-label="Portfolio home">SS</a>
+<div class="nav-links"><a href="index.html#case-studies">Case Studies</a><a href="index.html#projects">Project Demos</a><a href="index.html#experience">Experience</a><a href="index.html#contact">Contact</a></div>
+<a class="btn small secondary" href="index.html#case-studies">← All Case Studies</a>
+</nav></header>
+<main>
+<section class="case-hero container">
+<div class="breadcrumb"><a href="index.html">Portfolio</a> / <a href="index.html#case-studies">Case Studies</a> / 01</div>
+<div class="case-kicker"><span>CASE STUDY 01 / 05</span><span>INVENTORY OPTIMIZATION</span></div>
+<h1>Safety Stock Intelligence &amp; Data Quality Governance</h1>
+<p class="case-lead">Turning ASCP planning signals into a secure, actionable inventory-policy control tower.</p>
+<div class="tech-row"><span>Oracle ASCP / MRP</span><span>Oracle SQL</span><span>Amazon QuickSight</span><span>Row-Level Security</span><span>Item Master Data</span></div>
+<div class="case-disclaimer"><strong>Public portfolio version:</strong> This case study describes real professional work at a generalized level. No confidential datasets, internal screenshots, supplier details or proprietary SQL are included.</div>
+</section>
+<section class="case-strip"><div class="container case-signal-grid"><div class="case-signal"><strong>Below policy</strong><span>Coverage risk</span></div><div class="case-signal"><strong>Above policy</strong><span>Inventory exposure</span></div><div class="case-signal"><strong>Missing attributes</strong><span>Data-quality queue</span></div></div></section>
+<section class="section"><div class="container">
+<div class="section-heading"><div class="eyebrow">CONTEXT &amp; OWNERSHIP</div><h2>The problem and my role.</h2></div>
+<div class="case-split"><article class="case-info-panel"><span class="case-mini-label">01 / THE CHALLENGE</span><h3>Why the work mattered</h3><p>Buyers and planners needed one reliable way to see components falling below safety-stock coverage, material building above policy, and item attributes that could prevent replenishment decisions. Fragmented reviews made ownership and exceptions harder to manage.</p></article>
+<article class="case-info-panel"><span class="case-mini-label">02 / MY CONTRIBUTION</span><h3>What I owned</h3><p>I designed the exception logic, developed the custom SQL dataset, built the dashboard, configured role-based reporting, and owned a recurring data-quality review with stakeholders.</p></article></div>
+</div></section>
+<section class="section section-alt"><div class="container">
+<div class="section-heading"><div class="eyebrow">SOLUTION DESIGN</div><h2>How I approached it.</h2><p class="section-subtext">An end-to-end look at the planning logic, stakeholder workflow and delivery approach.</p></div>
+<div class="case-detail-grid"><article class="case-detail-card"><span class="case-step-index">01</span><h3>Model ASCP supply and demand</h3><p>Used Oracle ASCP planning data, including MSC_ORDERS_V, to make new demand and planning-attribute changes visible in the same reporting flow.</p></article><article class="case-detail-card"><span class="case-step-index">02</span><h3>Prioritize both sides of inventory risk</h3><p>Highlighted parts below a three-week coverage threshold alongside potential excess stock above policy, helping buyers distinguish shortages from over-ordering.</p></article><article class="case-detail-card"><span class="case-step-index">03</span><h3>Secure stakeholder access</h3><p>Applied row-level security so executives, managers, planners and buyers could use appropriate views of the same reporting framework.</p></article><article class="case-detail-card"><span class="case-step-index">04</span><h3>Make data ownership operational</h3><p>Established a weekly review of missing buyer assignments, safety-stock settings, sourcing rules, lead times and related master data.</p></article></div>
+<div class="case-workflow"><div class="case-mini-label">END-TO-END WORKFLOW</div><div class="case-flow-track"><div class="case-flow-step"><span class="case-flow-num">01</span><strong>Oracle ASCP</strong></div><div class="case-flow-step"><span class="case-flow-num">02</span><strong>Custom SQL</strong></div><div class="case-flow-step"><span class="case-flow-num">03</span><strong>Policy + item-quality flags</strong></div><div class="case-flow-step"><span class="case-flow-num">04</span><strong>QuickSight + RLS</strong></div><div class="case-flow-step"><span class="case-flow-num">05</span><strong>Buyer action</strong></div></div></div>
+</div></section>
+<section class="section"><div class="container">
+<div class="case-split case-outcome-grid">
+<div><div class="eyebrow">BUSINESS OUTCOMES</div><h2>What changed.</h2><p class="section-subtext">Qualitative results are described without publishing unapproved internal performance figures.</p></div>
+<div class="case-impact"><ul><li>Created a common view of inventory exceptions for leadership and execution teams.</li><li>Turned recurring item setup problems into a prioritized review rather than scattered manual checks.</li><li>Helped distinguish genuine safety-stock gaps from items intentionally managed without safety-stock policies.</li></ul></div>
+</div></div></section>
+<section class="section section-alt"><div class="container">
+<div class="case-end">
+<div><div class="eyebrow">EXPLORE MORE WORK</div><h2>See the next case study.</h2><p>Install Forecast Reconciliation &amp; Shortage Prevention</p></div>
+<div class="case-end-actions"><a class="btn" href="case-study-install-forecast.html">Next Case Study →</a><a class="btn secondary" href="index.html#case-studies">All 5 Case Studies</a></div>
+</div>
+</div></section>
+</main>
+<footer class="footer"><div class="container footer-row"><span>© <span data-year></span> Shantanu Satpute</span><span>Supply Chain Planning • Materials • Analytics</span></div></footer>
+<script src="script.js"></script>
+</body></html>

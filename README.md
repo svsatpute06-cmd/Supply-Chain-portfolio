@@ -14,3 +14,6 @@ What changed:
 
 Deploy:
 Upload all files to the root of the existing GitHub Pages repository and replace files with the same names.
+
+## Professional case studies (November 2026)
+Added five experience-based, confidentiality-conscious standalone HTML case studies, linked from the home page's Professional Case Studies section. Existing fictional interactive demos remain unchanged.

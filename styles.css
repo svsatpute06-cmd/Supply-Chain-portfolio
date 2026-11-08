@@ -97,3 +97,56 @@ th{color:var(--muted);font-weight:700;background:#111720}
  .experience-top{flex-direction:column;gap:2px}
  .experience-top>span{white-space:normal}
 }
+
+
+/* Experience-based case studies (separate from fictional demos) */
+.case-studies-section{background:radial-gradient(ellipse at 95% 0%,rgba(121,210,183,.07),transparent 45%),var(--bg)}
+.feature-case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.feature-case-card{min-width:0;display:flex;flex-direction:column;gap:14px;padding:28px;background:linear-gradient(145deg,#17212c,#101821);border:1px solid #304052;border-radius:18px;transition:transform .2s,border-color .2s}
+.feature-case-card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.feature-case-card h3{font-size:24px;line-height:1.26;letter-spacing:-.025em;margin:0}
+.feature-case-card p{margin:0;flex:1}
+.feature-case-top{display:flex;justify-content:space-between;align-items:center;gap:14px}
+.feature-case-index{font-weight:800;font-size:25px;color:var(--accent)}
+.feature-case-category,.case-mini-label{font-size:11px;letter-spacing:.14em;font-weight:800;color:var(--accent2)}
+.feature-case-tags{display:flex;gap:7px;flex-wrap:wrap}
+.feature-case-tags span{font-size:11px;color:var(--muted);padding:5px 9px;background:#1c2733;border:1px solid #304052;border-radius:999px}
+.feature-case-card .demo-link{margin-top:6px}
+.case-section-footnote{font-size:13px;margin-top:23px}
+.case-section-footnote a{text-decoration:underline;text-underline-offset:3px;color:var(--accent)}
+.case-hero{padding:68px 0 56px}
+.case-hero h1{font-size:clamp(42px,6vw,68px);max-width:980px}
+.case-kicker{display:flex;gap:20px;flex-wrap:wrap;font-size:12px;letter-spacing:.14em;font-weight:800;color:var(--accent);margin-top:14px}
+.case-kicker span+span{color:var(--accent2)}
+.case-lead{font-size:clamp(18px,2vw,24px);max-width:870px}
+.case-disclaimer{margin-top:28px;border:1px solid #344253;border-left:3px solid var(--accent);border-radius:10px;padding:14px 16px;color:var(--muted);font-size:13px;max-width:900px}
+.case-disclaimer strong{color:var(--text)}
+.case-strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#101922;padding:24px 0}
+.case-signal-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.case-signal{padding:8px 16px;border-left:1px solid #334456;display:flex;flex-direction:column}
+.case-signal strong{font-size:19px}
+.case-signal span{font-size:13px;color:var(--muted)}
+.case-split{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.case-info-panel,.case-detail-card,.case-workflow,.case-impact{border:1px solid var(--line);background:var(--panel);border-radius:18px;padding:28px}
+.case-info-panel h3{font-size:24px;margin-top:12px}
+.case-info-panel p{margin-bottom:0}
+.case-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.case-detail-card h3{margin-top:10px}
+.case-detail-card p{margin-bottom:0}
+.case-step-index{font-size:13px;font-weight:800;color:var(--accent)}
+.case-workflow{margin-top:20px}
+.case-flow-track{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:18px}
+.case-flow-step{min-width:0;min-height:96px;background:#1b2632;border:1px solid #334254;border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:10px}
+.case-flow-num{font-size:11px;color:var(--accent);font-weight:800}
+.case-flow-step strong{font-size:13px;line-height:1.4}
+.case-outcome-grid{align-items:center}
+.case-impact ul{padding:0;margin:0;list-style:none}
+.case-impact li{position:relative;padding:12px 0 12px 30px;border-bottom:1px solid var(--line);color:var(--muted)}
+.case-impact li:last-child{border-bottom:0}
+.case-impact li::before{content:"✓";position:absolute;left:0;color:var(--accent);font-weight:800}
+.case-end{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.case-end h2{font-size:clamp(28px,4vw,42px)}
+.case-end p{max-width:540px}
+.case-end-actions{display:flex;gap:12px;flex-wrap:wrap}
+@media(max-width:900px){.feature-case-grid,.case-split,.case-detail-grid{grid-template-columns:1fr}.case-flow-track{grid-template-columns:repeat(3,minmax(0,1fr))}.case-end{align-items:flex-start;flex-direction:column}}
+@media(max-width:560px){.case-signal-grid{grid-template-columns:1fr}.case-flow-track{grid-template-columns:repeat(2,minmax(0,1fr))}.case-info-panel,.case-detail-card,.case-workflow,.case-impact{padding:20px}.feature-case-card{padding:21px}}
