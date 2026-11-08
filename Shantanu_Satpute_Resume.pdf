@@ -1,0 +1,106 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Count 1 /Kids [3 0 R] >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 596 842] /Resources << /Font << /R 5 0 R /B 6 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 9451 >>
+stream
+0 0 0 rg BT /B 16 Tf 1 0 0 1 216.14 819.44 Tm (SHANTANU SATPUTE) Tj ET
+0.067 0.333 0.800 rg BT /B 10 Tf 1 0 0 1 88.03 802.48 Tm (svsatpute06@gmail.com) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 207.78 802.48 Tm (| \(931\) 998-2633 |) Tj ET
+0.067 0.333 0.800 rg BT /B 10 Tf 1 0 0 1 290.06 802.48 Tm (https://www.linkedin.com/in/shantanu-satpute/) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 66.43 786.73 Tm (Supply Chain Planning & Analytics | Oracle ASCP/MRP | Inventory Optimization | AWS QuickSight) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 22.47 756.86 Tm (Supply Chain Planning & Operations:) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 203.57 756.86 Tm (Material Requirements Planning \(MRP\), Supply & Demand Planning, SIOP,) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 23.22 742.91 Tm (Inventory & Safety Stock Optimization, Material Shortage Management, BOM Analysis, Forecast Validation, Procurement) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 23.22 729.41 Tm (Analytics, Supply Scenario Planning, Master Data Governance) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 22.47 698.36 Tm (Systems & Analytics:) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 127.25 698.36 Tm (Oracle EBS R12, Oracle ASCP/MRP, SQL \(Oracle SQL Developer\), AWS QuickSight, Amazon S3,) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 23.22 684.41 Tm (AWS Glue, Athena, Power BI, SAP S/4HANA, Advanced Excel \(Power Query, Pivot Tables, Macros\)) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 22.47 654.32 Tm (Certification:) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 86.89 654.32 Tm (Microsoft Certified: Power BI Data Analyst Associate \(PL-300\)) Tj ET
+0 0 0 rg BT /B 11 Tf 1 0 0 1 23.22 623.36 Tm (PROFESSIONAL EXPERIENCE) Tj ET
+0 0 0 rg BT /B 10.5 Tf 1 0 0 1 23.22 607.53 Tm (Supply Chain Analyst / Materials Planner | Bloom Energy | Newark, DE \(Jun 2025 - Present\)) Tj ET
+0 0 0 rg 29.90 596.22 m 29.90 597.41 28.94 598.37 27.75 598.37 c 26.56 598.37 25.60 597.41 25.60 596.22 c 25.60 595.03 26.56 594.07 27.75 594.07 c 28.94 594.07 29.90 595.03 29.90 596.22 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 593.02 Tm ( Safety Stock Optimization: Developed an RLS-enabled AWS QuickSight dashboard using custom Oracle ASCP SQL,) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 579.41 Tm (providing executives, planners, and buyers regularly refreshed visibility into materials below three-week safety stock) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 565.91 Tm (thresholds and above-target inventory to support replenishment and inventory optimization.) Tj ET
+0 0 0 rg 29.90 555.61 m 29.90 556.80 28.94 557.76 27.75 557.76 c 26.56 557.76 25.60 556.80 25.60 555.61 c 25.60 554.42 26.56 553.46 27.75 553.46 c 28.94 553.46 29.90 554.42 29.90 555.61 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 552.41 Tm ( Large-Scale Material Planning: Independently managed material planning for a field rework program with a $20M) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 538.91 Tm (materials budget covering ~20,000 units; coordinated engineering releases, in-house manufacturing, shortages, and) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 525.41 Tm (global depot replenishment through Oracle-connected Excel supply planning tools.) Tj ET
+0 0 0 rg 29.90 515.11 m 29.90 516.30 28.94 517.26 27.75 517.26 c 26.56 517.26 25.60 516.30 25.60 515.11 c 25.60 513.92 26.56 512.96 27.75 512.96 c 28.94 512.96 29.90 513.92 29.90 515.11 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 511.91 Tm ( Master Data Governance: Established weekly Oracle MRP data quality reviews covering buyer assignments, safety) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 498.41 Tm (stock, lead times, supplier data, and sourcing rules; reduced flagged exceptions from approximately 800 to 300,) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 484.91 Tm (validating remaining safety stock exclusions.) Tj ET
+0 0 0 rg 29.90 474.61 m 29.90 475.80 28.94 476.76 27.75 476.76 c 26.56 476.76 25.60 475.80 25.60 474.61 c 25.60 473.42 26.56 472.46 27.75 472.46 c 28.94 472.46 29.90 473.42 29.90 474.61 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 471.41 Tm ( Forecast & Demand Planning: Developed Oracle-based Salesforce-to-MRP checks comparing installation service and) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 457.91 Tm (kit dates with loaded forecast demand, allowing MRP controllers to correct timing mismatches.) Tj ET
+0 0 0 rg 29.90 447.61 m 29.90 448.80 28.94 449.76 27.75 449.76 c 26.56 449.76 25.60 448.80 25.60 447.61 c 25.60 446.42 26.56 445.46 27.75 445.46 c 28.94 445.46 29.90 446.42 29.90 447.61 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 444.41 Tm ( Supply & Scenario Planning: Architected a self-service revenue and R&O planning tool integrating multilevel BOM) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 430.91 Tm (explosion, AWS S3, Glue, Athena, and Oracle PO data to forecast date-phased inventory availability, identify shortages,) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 417.41 Tm (and guide purchasing pull-in/push-out decisions.) Tj ET
+0 0 0 rg 29.90 407.11 m 29.90 408.30 28.94 409.26 27.75 409.26 c 26.56 409.26 25.60 408.30 25.60 407.11 c 25.60 405.92 26.56 404.96 27.75 404.96 c 28.94 404.96 29.90 405.92 29.90 407.11 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 403.91 Tm ( Production Continuity: Managed weekly material shortage reviews for Repair & Overhaul and Site Installation) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 390.41 Tm (operations, partnering with production control, service, manufacturing, and procurement to resolve supply constraints) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 376.91 Tm (and reduce recurring material-driven line-down incidents.) Tj ET
+0 0 0 rg BT /B 10.5 Tf 1 0 0 1 23.22 345.03 Tm (Supply Chain Analyst Intern | AAW Trucking Association | Atlanta, GA \(Jan 2025 - May 2025\)) Tj ET
+0 0 0 rg 33.60 333.72 m 33.60 334.91 32.64 335.87 31.45 335.87 c 30.26 335.87 29.30 334.91 29.30 333.72 c 29.30 332.53 30.26 331.57 31.45 331.57 c 32.64 331.57 33.60 332.53 33.60 333.72 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 330.52 Tm (Supported supply chain and logistics analytics using SAP S/4HANA and Excel to improve asset tracking, inventory) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 316.27 Tm (visibility, and route planning, contributing to a 15% reduction in delivery times.) Tj ET
+0 0 0 rg 33.60 305.22 m 33.60 306.41 32.64 307.37 31.45 307.37 c 30.26 307.37 29.30 306.41 29.30 305.22 c 29.30 304.03 30.26 303.07 31.45 303.07 c 32.64 303.07 33.60 304.03 33.60 305.22 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 302.02 Tm ( Developed Power BI dashboards integrating SAP logistics data to monitor supplier performance, shipment status, and) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 288.41 Tm (route efficiency, replacing fragmented reporting with centralized operational visibility.) Tj ET
+0 0 0 rg BT /B 10.5 Tf 1 0 0 1 23.22 260.89 Tm (Operations Analyst Intern | BrightStar Care | West Chester, PA \(May 2024 - Aug 2024\)) Tj ET
+0 0 0 rg 33.60 249.61 m 33.60 250.80 32.64 251.76 31.45 251.76 c 30.26 251.76 29.30 250.80 29.30 249.61 c 29.30 248.42 30.26 247.46 31.45 247.46 c 32.64 247.46 33.60 248.42 33.60 249.61 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 246.41 Tm ( Created 3+ SOPs for 50+ frontline staff, leading to a 10% reduction in workplace incidents.) Tj ET
+0 0 0 rg 33.60 236.11 m 33.60 237.30 32.64 238.26 31.45 238.26 c 30.26 238.26 29.30 237.30 29.30 236.11 c 29.30 234.92 30.26 233.96 31.45 233.96 c 32.64 233.96 33.60 234.92 33.60 236.11 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 232.91 Tm ( Analyzed Materials Data and SRM data across 250+ SKUs and 15+ vendors, reducing carrying costs by 30%.) Tj ET
+0 0 0 rg BT /B 10.5 Tf 1 0 0 1 23.22 211.36 Tm (Procurement Analyst | Himtej Stampings | Pune, India \(Feb 2022 - Jul 2023\)) Tj ET
+0 0 0 rg 33.60 202.04 m 33.60 203.23 32.64 204.19 31.45 204.19 c 30.26 204.19 29.30 203.23 29.30 202.04 c 29.30 200.85 30.26 199.89 31.45 199.89 c 32.64 199.89 33.60 200.85 33.60 202.04 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 198.84 Tm ( Managed $1M+ in annual procurement spend across 20+ suppliers using SAP S/4HANA MM, coordinating sourcing for) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 187.16 Tm (motor laminations and rotor assemblies and reducing supplier lead times by 30%.) Tj ET
+0 0 0 rg BT /B 11 Tf 1 0 0 1 23.22 157.38 Tm (EDUCATION) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 23.22 141.88 Tm (Pennsylvania State University |) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 173.80 141.88 Tm (Master of Engineering Management \(Dec 2024\) \(GPA 3.80\)) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 23.22 125.38 Tm (Savitribai Phule Pune University |) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 184.89 125.38 Tm (Bachelor of Information Technology \(Apr 2021\) \(GPA 3.60\)) Tj ET
+0 0 0 rg BT /B 11 Tf 1 0 0 1 22.47 91.42 Tm (PUBLICATIONS) Tj ET
+0 0 0 rg BT /B 10 Tf 1 0 0 1 22.47 76.31 Tm ("Optimizing Three-Piece Aerosol Can Production: Efficiency at Sonoco") Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 367.94 76.31 Tm (\(Published at IISE\)) Tj ET
+0 0 0 rg 29.90 65.26 m 29.90 66.45 28.94 67.41 27.75 67.41 c 26.56 67.41 25.60 66.45 25.60 65.26 c 25.60 64.07 26.56 63.11 27.75 63.11 c 28.94 63.11 29.90 64.07 29.90 65.26 c f
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 62.06 Tm ( Proposed a GRG Nonlinear Solver model to standardize basis weights across aerosol can configurations, projecting a) Tj ET
+0 0 0 rg BT /R 10 Tf 1 0 0 1 43.47 49.16 Tm (13.79% reduction in production downtime.) Tj ET
+0.067 0.333 0.800 RG 0.7 w 88 801.50 m 205 801.50 l S
+0.067 0.333 0.800 RG 0.7 w 290 801.50 m 511 801.50 l S
+0 0 0 RG 0.7 w 30 622.50 m 183 622.50 l S
+0 0 0 RG 0.7 w 31 156.50 m 88 156.50 l S
+0 0 0 RG 0.7 w 30 90.50 m 104 90.50 l S
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000249 00000 n 
+0000009751 00000 n 
+0000009848 00000 n 
+trailer
+<< /Root 1 0 R /Size 7 >>
+startxref
+9950
+%%EOF
